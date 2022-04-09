@@ -32,7 +32,7 @@
 <style scoped>
 	.embed-container {
 		position: relative;
-		padding-bottom: 56.25%;
+		padding-bottom: 150%;
 		height: 0;
 		overflow: hidden;
 	}
