@@ -82,6 +82,13 @@
 						})
 				}
 			}
+		},
+		mounted() {
+			if (localStorage.getItem('token') != null) {
+				this.$router.push('/');
+			} else {
+				this.$router.push('/login');
+			}
 		}
 	}
 </script>

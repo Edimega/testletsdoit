@@ -2,8 +2,7 @@
 	<menuDasboardComponent />
 	<div class="container mb-5">
 		<div class="embed-container">
-			<iframe id="myIframe" class="text-center"
-			src="https://data.todoscomemos.com/public/dashboard/b6a01980-6fca-421e-9dbd-fcea62d0b82a" frameborder="0" scrolling="yes"></iframe>
+			<iframe src="https://data.todoscomemos.com/public/dashboard/b6a01980-6fca-421e-9dbd-fcea62d0b82a" frameborder="0" scrolling="yes"></iframe>
 		</div>
 	</div>
 </template>
