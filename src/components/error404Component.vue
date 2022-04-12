@@ -1,4 +1,5 @@
 <template>
+	<menuLoginComponent />
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 offset-md-3">
@@ -16,8 +17,12 @@
 </template>
 
 <script>
+	import menuLoginComponent from './template/menuLoginComponent.vue';
 	export default {
 		name: 'error404Component',
+		components: {
+			menuLoginComponent
+		},
 		props: {
 			msg: String
 		}
