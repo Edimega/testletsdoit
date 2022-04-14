@@ -10,7 +10,7 @@
 				<div class="d-none d-sm-block topbar-divider"></div>
 				<li class="nav-item dropdown no-arrow">
 					<div class="nav-item dropdown no-arrow">
-						<a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown">
+						<a class="dropdown-toggle nav-link pointer" aria-expanded="false" data-bs-toggle="dropdown">
 							<span class="d-lg-inline me-2 text-gray-600 small">{{ nombreUser }}</span>
 							<img class="border rounded-circle img-profile" :src="avatraUser" width="50" height="50"/>
 						</a>
@@ -24,7 +24,7 @@
 								Settings
 							</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" @click="cerrarSesion()">
+							<a class="dropdown-item pointer" @click="cerrarSesion()">
 								<i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>
 								Cerrar sesion
 							</a>
@@ -55,3 +55,9 @@
 		}
 	}
 </script>
+
+<style scoped>
+	.pointer{
+		cursor: pointer;
+	}
+</style>
